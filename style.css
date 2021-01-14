@@ -1,0 +1,49 @@
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color:black;
+    transition: 0.5s;
+    overflow-x: hidden;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a{
+    display: block;
+
+    text-align: center;
+    padding: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#closebtn{
+    width: auto;
+    text-align: right;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 0.5%;
+
+    color: white;
+    padding: 10%;
+}
+
+#sidetoggle{
+    font-size: 2rem;
+    margin: 0 0.5%;
+    cursor: pointer
+}
+
+#content{
+    transition: 0.5s;
+}
